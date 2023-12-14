@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+#contact-wrapper header h2{
+   color: #e96629;
+   font-weight: 700;
+}
+
+#contact-wrapper #contact-aside {
+    /* background-color: #F2FBFF; */
+    background-color: #fff;
+    margin: 20px;
+    padding: 15px;
+}
+
+#contact-wrapper #contact-aside p {
+    text-align: left;
+}
+
+#contact-wrapper #contact-aside .contact-heading {
+    font-weight: 700;
+    color: #e96629;
+}
+
+#contact-form {
+
+}
+
+#contact-form .form-group{
+    text-align: left;
+    padding: 10px 0;
+}
+
+#contact-form .form-group label {
+    font-weight: 600;
+    color: #122C50;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 20px; */
+}
+
+#contact-form .form-group label::after {
+    display: inline;
+    content: '*';
+    color: red;
+    margin: 5px;
+}
+
+#contact-form .form-group #message {
+    min-height: 180px;
+}
+
+#contact-form .msg-btn {
+    background-color:#122C50;
+    color: #fff;
+    transition: transform 0.1s linear;
+    margin-top: 20px;
+}
+
+#contact-form .msg-btn:hover {
+    transform: scale(0.97);
+}

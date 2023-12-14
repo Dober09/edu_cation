@@ -1,0 +1,14 @@
+.cards{
+    background-color: rgb(233, 102, 41);
+    padding-block: 20px;
+}
+
+.cards #card{
+    margin-block:10px ;
+}
+@media screen and (min-width:720px){
+    .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+}

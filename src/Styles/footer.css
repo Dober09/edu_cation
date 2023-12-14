@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+/* FOOTER STYLES   */
+footer {
+    background-color: #122C50;
+  }
+  
+  footer > section:first-child {
+    padding: 20px 0;
+  }
+  
+  footer > section:first-child .footer-column {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  footer h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #e96629;
+  }
+  
+  footer > section:first-child .footer-link {
+    display: block;
+  }
+  
+  footer > section:first-child .footer-link a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+  }
+  
+  footer > section:first-child .footer-column .email-input {
+    width: 220px;
+    padding: 20px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  
+  footer > section:first-child .footer-column button {
+    width: 220px;
+    background-color: #fff;
+    font-weight: 600;
+  }
+  
+  footer > section:last-child {
+    padding: 20px;
+    border-top: 1px solid lightgrey;
+    background-color: #061f41;
+  }
+  
+  footer > section > p {
+    color: #fff;
+  }
+  
+  footer > section:last-child > p:last-child {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer > section:last-child a{
+     background-color: #fff;
+     color: #122C50;
+     font-size: 25px;
+     margin: 5px;
+     border-radius: 50%;
+     padding: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+  }
+  
+  
+  
+  
+  /* MEDIA QUERIES  */
+  @media ( min-width: 576px ) { 
+  
+    footer > section:last-child {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+  
+     footer > section:first-child {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+     }
+  
+     footer > section:first-child .footer-column{
+         flex-basis: 300px;
+         flex-grow: 1;
+         flex-shrink: 1;
+     } 
+  
+    
+  }
+  
+  @media ( min-width: 600px ) { 
+    
+  
+    footer > section:first-child .footer-column {
+      text-align: left;
+      padding: 20px;
+   }
+  
+   .inner-footer-column {
+    width: 220px;
+   }
+  
+   }
+  
+  
+  
+  @media ( min-width: 768px ) {
+  
+   footer > section:first-child .footer-column {
+      flex-basis: 50%;
+      padding: 30px;
+   }
+  
+  }
+  
+  
+  @media ( min-width: 1024px ) { 
+    footer > section:first-child .footer-column {
+      flex-basis: 220px;
+   }
+  
+  }

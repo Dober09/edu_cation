@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+.blocks{
+    margin: 10px;
+}
+.blocks .block .text p{
+    font-family:"Roboto",sans-serif;
+    font-weight: 700;
+    color: rgb(233, 102, 41);
+    text-transform: capitalize;
+}
+
+.bg img{
+    width: 260px;
+    object-fit: cover;
+}
+@media screen and (min-width:760px) {
+    .bg img{
+        width: 360px;
+        object-fit: cover;
+    }
+    
+}

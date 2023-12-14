@@ -1,0 +1,117 @@
+#services-main-wrapper {
+    width: 100%;
+    background-color: #e8e8e8;
+    padding: 150px 0;
+}
+
+#services-main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.service-section {
+    /* display: flex; */
+}
+
+.service-section .service-section-item {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px;
+    text-align: left;
+}
+
+
+
+
+.service-section .service-section-item .side-img-wrapper {
+   
+}
+
+.service-section .service-section-item .image-overlay {
+
+}
+
+
+
+
+#service-contact-wrapper {
+    width: 100%;
+    height: 90vh;
+    background-color: aqua;
+    background-image: url('../assets/images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 8;
+}
+
+#service-contact-wrapper-overlay {
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.8; */
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-contact-content {
+   width: 90%;
+   margin: 0 auto;
+   color: #fff;
+   position: relative;
+   z-index: 10;
+   padding: 30px 0;
+   opacity: 1;
+   background-color: transparent;
+}
+
+#service-contact-content h1 {
+    letter-spacing: 2px;
+}
+
+#service-contact-content p {
+    font-size: 22px;
+}
+
+#service-contact-content .contact-btn {
+    color: #e96629;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid rgb(233, 102, 41);
+    opacity: 1;
+    padding: 10px 35px;
+    text-decoration: none;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: -3px 5px 0px 0px #e96629;
+    transition: transform 0.3s linear;
+}
+
+#service-contact-content .contact-btn:hover {
+   transform: scale(0.96);
+}
+
+
+
+/* MEDIA QUERIES */
+@media ( min-width: 768px){
+
+    #services-main {
+        width: 85%;
+    }
+  
+    .service-section {
+        display: flex;
+    }
+
+    .service-section .service-section-item {
+        max-width: 650px;
+    }
+}
